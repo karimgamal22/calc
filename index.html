@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>calculator</title>
+</head>
+
+<body>
+
+  <div class="calc">
+    <input type="text" placeholder="0" id="calc">
+    <button onclick="Clear()" style="background-color: rgb(226, 76, 43);">Cl</button>
+    <button onclick="Delete()">Del</button>
+    <button onclick="Dispaly('/')">/</button>
+    <button onclick="Dispaly('%')">%</button>
+    <button onclick="Dispaly('7')">7</button>
+    <button onclick="Dispaly('8')">8</button>
+    <button onclick="Dispaly('9')">9</button>
+    <button onclick="Dispaly('*')">*</button>
+    <button onclick="Dispaly('4')">4</button>
+    <button onclick="Dispaly('5')">5</button>
+    <button onclick="Dispaly('6')">6</button>
+    <button onclick="Dispaly('+')">+</button>
+    <button onclick="Dispaly('1')">1</button>
+    <button onclick="Dispaly('2')">2</button>
+    <button onclick="Dispaly('3')">3</button>
+    <button onclick="Dispaly('-')">-</button>
+    <button onclick="Dispaly('0')">0</button>
+    <button onclick="Dispaly('.')">.</button>
+
+    <button onclick="calc('=')" style="background-color: blueviolet;  grid-column: span 2;">=</button>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
